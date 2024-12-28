@@ -291,7 +291,7 @@ function App() {
       </section>
       <section id='Appoinment' className="features mt-4">
         <div className="container">
-        <h2 className="mb-4 title-color text-center">Book An Online Appoinment</h2>
+        <h2 className="mb-4 title-color text-center">Book An Online Appoinment!</h2>
           <div className="row">
             <div className="col-lg-12">
               <div className="feature-block d-lg-flex">
