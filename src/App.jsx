@@ -10,7 +10,7 @@ function App() {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <ul className="top-bar-info list-inline-item pl-0 mb-0">
-                  <li className="list-inline-item"><a href="mailto:support@gmail.com"><i className="icofont-support-faq mr-2"></i>support@novena.com</a></li>
+                  <li className="list-inline-item"><a href="mailto:support@esthersportfolio.com"><i className="icofont-support-faq mr-2"></i>support@esthersportfolio.com</a></li>
                   <li className="list-inline-item"><i class="icofont-location-pin"></i>Address Ta-134/A, New York, USA </li>
                 </ul>
               </div>
@@ -27,8 +27,8 @@ function App() {
         </div>
         <nav className="navbar navbar-expand-lg navigation" id="navbar">
           <div className="container">
-            <a className="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="" className="img-fluid" />
+            <a className="navbar-brand" href="/">
+              <img src="./logo/ESTHER’S.png" alt="" className="img-fluid" />
             </a>
 
             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,30 +38,15 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarmain">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                  <a className="nav-link" href="index.html">Home</a>
+                  <a className="nav-link" href="/">Home</a>
                 </li>
                 <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
                 <li className="nav-item"><a className="nav-link" href="#values">Values</a></li>
 
                 <li className='nav-item'><a className="nav-link" href="#Appoinment">Appoinment</a></li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i className="icofont-thin-down"></i></a>
-                  <ul className="dropdown-menu" aria-labelledby="dropdown03">
-                    <li><a className="dropdown-item" href="doctor.html">Doctors</a></li>
-                    <li><a className="dropdown-item" href="doctor-single.html">Doctor Single</a></li>
-                    <li><a className="dropdown-item" href="appoinment.html">Appoinment</a></li>
-                  </ul>
-                </li>
+                <li className='nav-item'><a className="nav-link" href="#Artifacts">Artifacts</a></li>
 
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i className="icofont-thin-down"></i></a>
-                  <ul className="dropdown-menu" aria-labelledby="dropdown05">
-                    <li><a className="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-                    <li><a className="dropdown-item" href="blog-single.html">Blog Single</a></li>
-                  </ul>
-                </li>
-                <li className="nav-item"><a className="nav-link" href="contact.html">Contact</a></li>
+                <li className="nav-item"><a className="nav-link" href="#Appoinment">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -107,7 +92,7 @@ function App() {
             </div>
             <div className="col-lg-4">
               <div className="about-content pl-4 mt-4 mt-lg-0">
-                <h2 className="title-color">Hi, my name is Esther Momson, I am a nursing student at Trent University in my third year of studies.</h2>
+                <h2 className="title-color">Hi, my name is Esther Momson, I am a nurse Working in (More Info..)</h2>
                 <h4 className="title-color mt-4">My Philosophy and Beliefs of Nursing</h4>
                 <p className="mb-5">  Nurses are caring, passionate, hard working and play an important role in healthcare.
                   For me, a nurse means being selfless, kind, dedicated and strong. Throughout a nurse's career,
@@ -262,7 +247,7 @@ function App() {
         </div>
       </section>
 
-      <section className="section appoinment">
+      <section id='Artifacts' className="section appoinment">
         <div className="container">
         <h2 className="mb-4 title-color text-center">Artifacts</h2>
           <div className="row align-items-center">
@@ -338,29 +323,14 @@ function App() {
             <div className="col-lg-4 mr-auto col-sm-6">
               <div className="widget mb-5 mb-lg-0">
                 <div className="logo mb-4">
-                  <img src="images/logo.png" alt="" className="img-fluid" />
+                  <img src="./logo/ESTHER’S.png" alt="" className="img-fluid" />
                 </div>
-                <p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
+                <p>Empathy and excellence define my approach to nursing care. With a commitment to patient well-being, I strive to provide compassionate support, clear communication, and evidence-based practices. Collaboration with healthcare teams ensures holistic and personalized care for every individual.</p>
 
                 <ul className="list-inline footer-socials mt-4">
-                  <li className="list-inline-item"><a href="https://www.facebook.com/themefisher"><i className="icofont-facebook"></i></a></li>
-                  <li className="list-inline-item"><a href="https://twitter.com/themefisher"><i className="icofont-twitter"></i></a></li>
-                  <li className="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i className="icofont-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-md-6 col-sm-6">
-              <div className="widget mb-5 mb-lg-0">
-                <h4 className="text-capitalize mb-3">Department</h4>
-                <div className="divider mb-4"></div>
-
-                <ul className="list-unstyled footer-menu lh-35">
-                  <li><a href="#">Surgery </a></li>
-                  <li><a href="#">Wome's Health</a></li>
-                  <li><a href="#">Radiology</a></li>
-                  <li><a href="#">Cardioc</a></li>
-                  <li><a href="#">Medicine</a></li>
+                  <li className="list-inline-item"><a href="#"><i className="icofont-facebook"></i></a></li>
+                  <li className="list-inline-item"><a href="#"><i className="icofont-twitter"></i></a></li>
+                  <li className="list-inline-item"><a href="#"><i className="icofont-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
